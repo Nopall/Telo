@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.mens.appmens.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <Button
+        android:id="@+id/btn_periodmens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="10px"
+        android:text="Periode Menstruasi"
+        android:textSize="16sp"
+        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:padding="16dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#1238e4"/>
+
+    <Button
+        android:id="@+id/btn_infokes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="10px"
+        android:text="Info Kesehatan Wanita"
+        android:textSize="16sp"
+        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:padding="16dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#1238e4"/>
+
+    <Button
+        android:id="@+id/btn_forum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="10px"
+        android:text="Forum Chatting"
+        android:textSize="16sp"
+        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:padding="16dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#1238e4"/>
+
+    <Button
+        android:id="@+id/btn_konsul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="10px"
+        android:text="Konsultasi Online"
+        android:textSize="16sp"
+        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:padding="16dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#1238e4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Kontak Kami"
+        android:textColor="#194791"
+        android:textAlignment="center"
+        android:textSize="32sp"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_launcher"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+</LinearLayout>
